@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/275/original/notte_stellata.jpeg?1707854684);
 }
 
 header {
@@ -10,8 +10,9 @@ header {
 main {
   font-size: 20px;
 }
+
 .weather-app {
-  background: white;
+  background-color: rgba(255, 255, 255, 0.594);
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -21,7 +22,7 @@ main {
 }
 
 a {
-  color: #885df1;
+  color: #254688;
 }
 
 .search-form-input {
@@ -35,7 +36,7 @@ a {
 }
 
 .search-form-button {
-  background: purple;
+  background: #254688;
   padding: 15px 30px;
   border: none;
   margin-left: 5px;
@@ -65,7 +66,7 @@ a {
 }
 
 .weather-app-details strong {
-  color: pink;
+  color: #254688;
 }
 
 .weather-app-temperature-container {
@@ -97,5 +98,6 @@ footer {
   padding: 30px 0;
   text-align: center;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.671);
 }
