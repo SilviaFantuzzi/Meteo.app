@@ -54,13 +54,13 @@ a {
 
 .weather-app-city {
   margin: 0;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
   line-height: 48px;
 }
 
 .weather-app-details {
-  font-size: 24px;
+  font-size: 20px;
   color: rgba(39, 33, 66 0.4);
   line-height: 48px;
 }
@@ -74,18 +74,20 @@ a {
 }
 
 .weather-app-temperature-value {
-  font-size: 66px;
+  font-size: 55px;
   font-weight: bold;
+  margin-top: 19px;
 }
 
 .weather-app-icon {
-  font-size: 50px;
-  margin-top: 2px;
+  width: 80px;
+  height: 80px;
+  padding: -20px 0px;
 }
 
 .weather-app-temperature-unit {
-  margin-top: -13px;
-  font-size: 28px;
+  margin-top: 10px;
+  font-size: 24px;
 }
 
 main {
