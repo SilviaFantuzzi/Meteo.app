@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid #57b2e7;
   padding: 30px 0;
 }
 
@@ -12,10 +12,10 @@ main {
 }
 
 .weather-app {
-  background-color: rgba(255, 255, 255, 0.594);
+  background-color: rgba(245, 245, 255, 0.624);
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px #57b2e7;
   border-radius: 16px;
   padding: 30px;
   font-family: "Dancing Script", cursive;
@@ -27,8 +27,9 @@ a {
 
 .search-form-input {
   background-color: #f9f7fe;
-  border: none;
+  border: 1px;
   border-radius: 6px;
+  border-color: #57b2e7;
   width: 80%;
   font-size: 20px;
   padding: 15px 20px;
@@ -96,7 +97,7 @@ main {
   line-height: 48px;
 }
 footer {
-  border-top: 1px solid #f9f7fe;
+  border-top: 1px solid #57b2e7;
   padding: 30px 0;
   text-align: center;
   font-size: 16px;
